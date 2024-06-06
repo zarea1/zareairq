@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="stylepro.css">
+</head>
+<body>
+    <header>
+        <h1>Air Quality Maps</h1>
+    </header>
+    <main>
+        <div class="product">
+            <img src="maps/NO2.jpeg" alt="Product 1" class="product-image" onclick="openModal('maps/NO2.jpeg', 'Product 1', 'Description of Product 1...', 'Map 1 description')">
+            <div class="product-info">
+                <h2>NO2</h2>
+                <p>The lowest emission values were recorded in the eastern part of the Eastern Desert of Beni Suef Governorate and in the Western Desert, due to the absence of human activities, industries, or any sources of fossil fuel combustion, at a rate of 6.83399 mol/m². Conversely, the highest value was recorded in New Beni Suef City, east of Old Beni Suef City, due to the presence of cement factories and medical incinerators in the village of Sanur, at a rate of 0.000193593 mol/m²....</p>
+            </div>
+        </div>
+        <!-- Repeat the above structure for the remaining products -->
+        <div class="product">
+            <img src="maps/SO2.jpeg" alt="Product 2" class="product-image" onclick="openModal('maps/SO2.jpeg', 'Product 2', 'Description of Product 2...', 'Map 2 description')">
+            <div class="product-info">
+                <h2>SO2</h2>
+                <p>Sulfur dioxide gas is distributed in large quantities across the centers of the governorate, particularly in the capitals of each center and populated areas, as well as the East Nile area due to the presence of cement factories. The highest concentration in these areas is 0.000280134 mol/m². Cement factories in Egypt are among the largest sources of sulfur dioxide emissions, with the legal permissible limit being 400 milligrams per standard cubic meter....</p>
+            </div>
+        </div>
+        
+        <div class="product">
+            <img src="maps/O3.jpeg" alt="Product 3" class="product-image" onclick="openModal('maps/O3.jpeg', 'Product 2', 'Description of Product 2...', 'Map 2 description')">
+            <div class="product-info">
+                <h2>O3</h2>
+                <p>The lowest concentration of pollutants in the air was recorded in the desert areas, both eastern and western, at 0.128091 mol/m². Conversely, the highest concentration was found in urban areas, particularly in Wasta Center and as we move northward in the governorate, with a concentration of 0.130984 mol/m²....</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="maps/CO.jpeg" alt="Product 4" class="product-image" onclick="openModal('maps/CO.jpeg', 'Product 2', 'Description of Product 2...', 'Map 2 description')">
+            <div class="product-info">
+                <h2>CO</h2>
+                <p>The lowest concentration of pollutants in the air was found in the desert areas and southern centers, measuring 0.0299905 mol/m². The highest concentration was recorded in the East Nile area and the capitals of Beni Suef, Nasser, and Wasta centers, due to the presence of cement factories, vehicle emissions, and combustion processes in populated areas, measuring 0.0336725 mol/m².....</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="maps/HCHO.jpeg" alt="Product 5" class="product-image" onclick="openModal('maps/HCHO.jpeg', 'Product 2', 'Description of Product 2...', 'Map 2 description')">
+            <div class="product-info">
+                <h2>HCHO</h2>
+                <p>The lowest concentration of these pollutants is found in the western desert hinterland of Beni Suef Governorate and the eastern part of the Eastern Desert, with a quantity of 5.37781 mol/m². Conversely, these pollutants are distributed in large quantities in the capitals of each center, particularly in the capitals of Beni Suef, Nasser, and Wasta centers, as well as the western part of the Eastern Desert, with a concentration of 0.000159782 mol/m² in the air in these capitals....</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="maps/UV AEROSOL.jpeg" alt="Product 2" class="product-image" onclick="openModal('maps/UV AEROSOL.jpeg', 'Product 2', 'Description of Product 2...', 'Map 2 description')">
+            <div class="product-info">
+                <h2>UV Aerosol</h2>
+                <p>The concentration of aerosols increases in urban and desert areas, with the highest value recorded in desert areas at 2.12485 mol/m². Conversely, the concentration of aerosols decreases in rural areas that are less populated and to a lesser extent in urban areas. In the rural areas of Beni Suef Governorate, located in the center of the governorate parallel to the Nile River, the concentration is 0.114723 mol/m²....</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="maps/Rains.jpeg" alt="Product 2" class="product-image" onclick="openModal('maps/Rains.jpeg', 'Product 2', 'Description of Product 2...', 'Map 2 description')">
+            <div class="product-info">
+                <h2>Rains</h2>
+                <p>The amount of rainfall in Beni Suef Governorate increases in the northwest part, ranging from 6.35 to 7.57 millimeters, and gradually decreases towards the southeast, reaching its lowest amount at 2.65 to 3.89 millimeters. Rainfall is influenced by air pollutants, forming various compounds, with one of the most impactful being the mixing of rain with NO2 pollutants, forming nitric acid. The highest NO2 pollutant value was recorded in New Beni Suef City, east of the old city, due to the presence of cement factories and medical incinerators in the village of Sanur, at a rate of 0.000193593 moles/m2. This results in a type of rain called acid rain, which falls on the large and final ranks located in the eastern desert, flowing into the middle of the Nile River....</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="maps/winds.jpeg" alt="Product 2" class="product-image" onclick="openModal('maps/winds.jpeg', 'Product 2', 'Description of Product 2...', 'Map 2 description')">
+            <div class="product-info">
+                <h2>Winds</h2>
+                <p>The wind is influenced by air pollutants present in the governorate, affecting the direction of NO2 pollutants, which impacts the residents of the following centers: Biba, Samasta, and Al-Fashn. The wind also affects the direction of SO2 pollutants, which increase in urban areas, thus carrying SO2 to the surrounding rural areas. The wind impacts formaldehyde pollutants found in large quantities in the capitals of the following centers: Beni Suef, Nasser, and Al-Wasta, directing these pollutants to the southern centers (Biba, Samasta, Al-Fashn). The wind affects the direction of O3 pollutants, carrying them from the north in Al-Wasta, Nasser, and Beni Suef centers (the most polluted by O3) to the southwest, impacting Ihnasia, Biba, and Samasta centers. The wind carries CO pollutants from the northwestern part of the Eastern Desert to the southwestern part, slightly affecting Biba and Al-Fashn centers. The wind also influences the direction of aerosol pollutants, carrying them from the Eastern Desert and significantly affecting all centers, as they lie on fertile Nile floodplain soil, which is predominantly agricultural and has lower aerosol concentrations....</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="maps/UHI.jpeg" alt="Product 2" class="product-image" onclick="openModal('maps/UHI.jpeg', 'Product 2', 'Description of Product 2...', 'Map 2 description')">
+            <div class="product-info">
+                <h2>UHI</h2>
+                <p>Urban heat islands appear in red, indicating higher temperatures compared to the surrounding rural areas, which appear in green. The temperature in urban heat islands ranges from 19.20 to 22.07 degrees Celsius, while in rural areas it ranges from 15.72 to 19.20 degrees Celsius. The temperature rises in East Nile City, appearing in blue due to the extensive desert areas, reaching temperatures between 22.07 and 32.76 degrees Celsius....</p>
+            </div>
+        </div>
+        <!-- Repeat for Product 3, Product 4, Product 5, and Product 6 -->
+    </main>
+
+    <!-- Modal for displaying full-size image -->
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img src="" alt="Full-size Image" id="modalImg">
+        <div id="caption"></div>
+        <div id="mapDescription" class="map-description"></div>
+    </div>
+
+    <script>
+        function openModal(imageSrc, title, description, mapDescription) {
+            var modal = document.getElementById("myModal");
+            var modalImg = document.getElementById("modalImg");
+            var captionText = document.getElementById("caption");
+            var mapDesc = document.getElementById("mapDescription");
+            modal.style.display = "block";
+            modalImg.src = imageSrc;
+            captionText.innerHTML = "<h2>" + title + "</h2><p>" + description + "</p>";
+            mapDesc.innerHTML = "<p>" + mapDescription + "</p>";
+        }
+
+        function closeModal() {
+            var modal = document.getElementById("myModal");
+            modal.style.display = "none";
+        }
+    </script>
+</body>
+</html>
